@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="tela">
+                <p id="resultado"></p>
+            </div>
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td scope="col" ><button class="botao" onclick="excluir()">C</button></td>
+                        <td scope="col"><button class="botao" onclick="divisao()">/</button></td>
+                        <td scope="col"><button class="botao" onclick="multiplicacao()" >X</button></td>
+                        <td scope="col"><button class="botao" onclick="resultado()">=</button></td>
+                    </tr>
+                    <tr>
+                        <td scope="col"><button class="botao" class="botao2" onclick="inserir(1)">1</button></td>
+                        <td scope="col"><button class="botao" class="botao2" onclick="inserir(2)">2</button></td>
+                        <td scope="col"><button class="botao"  class="botao2" onclick="inserir(3)">3</button></td>
+                        <td scope="col"><button class="botao" onclick="subtracao()">-</button></td>
+                    </tr>
+                    <tr>
+                        <td scope="col"><button class="botao"  class="botao2" onclick="inserir(4)">4</button></td>
+                        <td scope="col"><button class="botao" class="botao2" onclick="inserir(5)">5</button></td>
+                        <td scope="col"><button class="botao" class="botao2" onclick="inserir(6)">6</button></td>
+                        <td scope="col"><button class="botao" onclick="somar()">+</button></td>
+                    </tr>
+                    <tr>
+                        <td scope="col"><button class="botao" class="botao2" onclick="inserir(7)">7</button></td>
+                        <td scope="col"><button class="botao" class="botao2" onclick="inserir(8)">8</button></td>
+                        <td scope="col"><button class="botao" class="botao2" onclick="inserir(9)">9</button></td>
+                        <td scope="col"><button class="botao" class="botao2" onclick="inserir(0)">0</button></td>
+                        
+
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
